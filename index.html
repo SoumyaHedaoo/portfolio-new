@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-task1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a51b61aa2c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, it's <span>Soumya</span> here<br></h1>
+                <h4>Frontend Web Developer</h4>
+                <a href="Resume.pdf" download class="btn btn2 hbtn" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('eduacation')">Education</p>
+                    </div>  
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>HTML, CSS, Javascript, NodeJs, ExpressJs, MongoDB, React</li>
+                            <li><span>Programming</span><br>C++, Python, Java</li>
+                            <li><span>Platform</span><br>Spreadsheets, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><li>CodSoft Completed !!!</li><li>More to come...</li></li>
+                            <li><span>Certificates</span><br><li>Web Developement Bootcamp by Udemy</li><li>Data structure and Algorithm- Coding Ninja</li><li>Git and GitHub FreeCodeCamp.org</li></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="eduacation">
+                        <ul>
+                            <li><span>2021-2025</span><br>aggregate  - 7.92 CGPA </li>
+                            <li><span>2020-2021</span><br>HSC - 94.17 %</li>
+                            <li><span>2018-2019</span><br>SSC - 95.60 %</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-para">Hi, my name is Soumya Hedaoo and I am a highly ambitious, motivated, and driven software engineer based in Pune.
+                        <br>
+                        I will graduate from Sinhgad College Of Engineering, Pune in 2025 with a BE in Computer Engineering.
+                        <br>
+                        I have a wide range of hobbies and passions that keep me busy. From traveling, Reading, exploring Historical sited and staying updated on Science & Technology. I am always seeking new experiences and love to keep myself engaged and learning new things.
+                        <br>
+                        I believe that you should never stop growing and that's what I strive to do, I have a passion for technology and a desire to always push the limits of what is possible. I am excited to see where my career takes me and am always open to new opportunities.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/project1.png" alt="">
+                    <div class="layer">
+                        <h3>Weather Canvas</h3>
+                        <p><h2>Explore More...</h2></p>
+                        <a href="https://soumyahedaoo.github.io/weather-canvas/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project2.png" alt="">
+                    <div class="layer">
+                        <h3>Password Generator</h3>
+                        <p><h2>Explore More...</h2></p>
+                        <a href="https://soumyahedaoo.github.io/pass-generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project3.png" alt="">
+                    <div class="layer">
+                        <h3>Qr-Code Generator</h3>
+                        <p><h2>Explore More...</h2></p>
+                        <a href="https://soumyahedaoo.github.io/Qr-Code-generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Soumyahedaoo77@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7709592967</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/soumya-hedaoo-0689062a7/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SoumyaHedaoo" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.codechef.com/users/s0umya7"_blank"><i
+                                class="fa-brands fa-codepen"></i></a>
+                        <a href="mailto:soumyahedaoo77@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2" target= "_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="copyright-p"><i class="fa-regular fa-copyright"></i> Soumyahedaoo @2024</p>
+            <div class="top-arrow">
+                <a href="#header"><i class="fa-sharp fa-regular fa-circle-up "></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
